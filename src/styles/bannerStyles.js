@@ -31,8 +31,10 @@ export const BannerStyles = styled.section`
     h1 {
       font-size: 1.75rem;
       line-height: 1.2;
+      padding-bottom:1rem;
 
       span {
+        padding:3rem;
         background: -webkit-linear-gradient(45deg, #f441a5, #03a9f4);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;

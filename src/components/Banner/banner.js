@@ -12,9 +12,9 @@ const Banner = () => {
   const { placeholderImage } = useStaticQuery(
     graphql`
       query {
-        placeholderImage: file(relativePath: { eq: "flames.jpg" }) {
+        placeholderImage: file(relativePath: { eq: "flamespink.jpg" }) {
           childImageSharp {
-            gatsbyImageData(quality: 90, width: 1920, formats: [AUTO, WEBP])
+            gatsbyImageData(quality: 90, width: 3500, formats: [AUTO, WEBP])
           }
         }
       }
@@ -46,7 +46,7 @@ const Banner = () => {
             variants={variants}
             transition={{ ease: "easeOut", duration: 0.8, delay: 1 }}
           >
-            It's time to make your business <span>stand out</span>
+            Love to develop in React and Gatsby... <br></br><span>Special Web-Goodies</span>
           </motion.h1>
           <motion.p
             initial="hidden"
@@ -54,8 +54,7 @@ const Banner = () => {
             variants={variants}
             transition={{ ease: "easeOut", duration: 0.8, delay: 1.5 }}
           >
-            Startup is here to help you achieve your business and personal
-            goals, all through a stylish theme
+            The modern web is here and I can bring you fast efficient and scalable web applications.
           </motion.p>
           <Link to="about" smooth={true} duration={500}>
             <span className="sr-only">Jump to about</span>

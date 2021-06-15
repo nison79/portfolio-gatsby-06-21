@@ -53,14 +53,14 @@ export const NavStyles = styled.nav`
     justify-content: space-between;
 
     img {
-      width: 90px;
+      width: 120px;
 
       @media (min-width: 768px) {
-        width: 100px;
+        width: 120px;
       }
 
       @media (min-width: 1200px) {
-        width: 120px;
+        width: 180px;
       }
     }
   }
