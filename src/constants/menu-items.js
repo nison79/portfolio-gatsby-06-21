@@ -22,22 +22,22 @@ export const mainMenuItems = [
 ]
 
 export const socialMenuItems = [
-  {
-    icon: <FaLinkedin />,
-    url: "https://www.linkedin.com/in/morgan-baker-developer-inverness",
-    name: "LinkedIn",
-  },
-  {
-    icon: <FaTwitter />,
-    url: "https://www.twitter.com",
-    name: "Twitter",
-  },
-  {
-    icon: <DiGithubBadge />,
-    url: "https://github.com/bagseye",
-    name: "GitHub",
-  },
-]
+         {
+           icon: <FaLinkedin />,
+           url: "https://www.linkedin.com/in/georgenikoglou/",
+           name: "LinkedIn",
+         },
+         {
+           icon: <FaTwitter />,
+           url: "https://twitter.com/gnikoglou79",
+           name: "Twitter",
+         },
+         {
+           icon: <DiGithubBadge />,
+           url: "https://github.com/nison79/",
+           name: "GitHub",
+         },
+       ]
 
 export const footerMenuItems = [
   {
